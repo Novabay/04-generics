@@ -45,7 +45,7 @@ public class SimpleListImpl<T> implements SimpleList<T> {
 	 * Get a new SimpleList instance with all items of this list which match the given filter
 	 * @param filter SimpleFilter instance
 	 * @return new SimpleList instance
-	 */
+
 	public SimpleList filter(SimpleFilter filter){
 		SimpleList result = new SimpleListImpl();
 		for(Object o : this){
@@ -55,7 +55,7 @@ public class SimpleListImpl<T> implements SimpleList<T> {
 		}
 		return result;
 	}
-
+    */
 	/**
 	 * @inheritDoc
 	 */
